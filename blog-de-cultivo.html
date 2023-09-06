@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de cultivo</title>
+    <link rel="stylesheet" href="css\estilo.css">
+    <link href="bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
+        integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light fixed-top d-lg-none">
+        <div class="container-fluid">
+            <a href="index.html">
+                <img src="images/logo-empresa.webp" alt="Logo" width="120" height="44">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog Cultivo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-none d-sm-block d-md-none d-lg-block">
+        <div class="logo-container text-center">
+            <a href="index.html">
+                <img src="images/logo-empresa.webp" alt="Logo" width="200" height="74">
+            </a>
+
+        </div>
+        <header class="d-flex justify-content-center py-3 fondo-nav">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="nosotros.html" class="nav-link active" aria-current="page">Nosotros</a>
+                </li>
+                <li class="nav-item"><a href="producto.html" class="nav-link">Productos</a></li>
+                <li class="nav-item"><a href="blog-de-cultivo.html" class="nav-link">Blog Cultivo</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="row mb-2 pt-5 flex-column align-items-center">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary-emphasis">El Cultivo de Rosas: Belleza y
+                                Pasión en Tus Manos</strong>
+                            <h3 class="mb-0">Featured post</h3>
+                            <div class="mb-1 text-body-secondary">Sep 4</div>
+                            <p class="card-text mb-auto"> El cultivo de rosas es una práctica apasionante que nos
+                                conecta con la naturaleza y nos permite disfrutar de
+                                la
+                                belleza y fragancia de estas flores emblemáticas.</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Leer más
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="240" height="310"
+                                src="https://img.freepik.com/foto-gratis/ramo-rosas-rojas-san-valentin_2829-5293.jpg?w=2000">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success-emphasis">Cultivo de Jazmines: Fragancia y
+                                Encanto en Tu Jardín</strong>
+                            <h3 class="mb-0">Post title</h3>
+                            <div class="mb-1 text-body-secondary">Nov 11</div>
+                            <p class="mb-auto"> El cultivo de jazmines es una experiencia mágica. Estas flores blancas o
+                                suaves desprenden un aroma
+                                embriagador
+                                que llena el aire con dulzura.</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Leer más
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="240" height="310"
+                                src="https://www.rionegro.com.ar/wp-content/uploads/2021/10/Imagen-gardenia-flor-jazmin-del-cabo.jpg">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success-emphasis">Cultivo de Cítricos: Frescura y
+                                Sabor en Casa
+                            </strong>
+                            <h3 class="mb-0">Post title</h3>
+                            <div class="mb-1 text-body-secondary">Nov 11</div>
+                            <p class="mb-auto">El cultivo de cítricos es una experiencia refrescante y sabrosa. Estos
+                                árboles resistentes prosperan con luz
+                                solar y riego adecuado.</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Leer más
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="240" height="310"
+                                src="https://www.lavanguardia.com/files/image_948_465/uploads/2018/11/07/5ea9c1b037113.jpeg">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="mi-footer">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-between">
+                <div class="logo-Fila-1-Colum-1 col mb-3">
+                    <img src="images/logo-empresa.webp" alt="Logo" width="150">
+                </div>
+
+                <div class="col mb-3">
+                    <ul class="nav flex-column ">
+                        <h5>Categorías</h5>
+                        <li class="nav-item mb-2"><a href="index.html">Inicio</a></li>
+                        <li class="nav-item mb-2"><a href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item mb-2"><a href="producto.html">Producto</a></li>
+                        <li class="nav-item mb-2"><a href="blog-de-cultivo.html">Blog de Cultivo</a></li>
+                        <li class="nav-item mb-2"><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <ul class="nav flex-column">
+                        <h5>Contacto</h5>
+
+                        <li class="nav-item mb-2"><img src="images/icons8-whatsapp-48.png" width="25"><a
+                                href="tel:1569804958">1569804958</a></li>
+                        <li class="nav-item mb-2"><img src="images/icons8-nuevo-post-48.png" width="25"><a
+                                href="mail: info@upgrowshop.com">info@upgrowshop.com</a></li>
+                        <li class="nav-item mb-2 text-white"><img src="images/icons8-visita-48.png"
+                                width="25"><span>Virrey del pino 2556, Belgrano</span></li>
+
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <ul class="nav flex-column">
+                        <h5>Nuestras redes</h5>
+                        <li class="nav-item mb-2">
+                            <img src="images/icons8-instagram-48.png" width="25" alt="Instagram">
+                            <a href="https://www.instagram.com/upgrowshop" target="_blank">@upgrowshop</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="images/icons8-facebook-48.png" width="25" alt="Facebook">
+                            <a href="https://www.facebook.com/upgrowshop" target="_blank">
+                                /upgrowshop
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </footer>
+
+</body>
+
+
+
+</html>
